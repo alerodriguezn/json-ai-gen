@@ -38,7 +38,7 @@ export const JsonForm = () => {
 
 
   return (
-    <div>
+    <div> 
       <form onSubmit={handleSubmit(onSubmit)}>
         {fields.map((field, index) => {
           return (
@@ -103,6 +103,9 @@ export const JsonForm = () => {
         </button>
  
       </form>
+      
+  
+
     </div>
   );
 }
